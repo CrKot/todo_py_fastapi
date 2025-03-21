@@ -1,0 +1,4 @@
+fastApi
+pydantic
+pymysql
+uvicorn
