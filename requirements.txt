@@ -1,4 +1,5 @@
 fastApi
 pydantic
 pymysql
+sqlalchemy
 uvicorn

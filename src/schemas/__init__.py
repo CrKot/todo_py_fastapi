@@ -1,5 +1,6 @@
-from src.schemas.user import User
-from src.schemas.user import UserCreate
-from src.schemas.task import Task
+from src.schemas.user import UserSchema
+from src.schemas.user import UserCreateSchema
+from src.schemas.user import TokenSchema
+from src.schemas.task import TaskCreateSchema
 
-__all__ = ["User", "UserCreate", "Task"]
+__all__ = ["UserSchema", "UserCreateSchema", "TokenSchema", "TaskCreateSchema"]

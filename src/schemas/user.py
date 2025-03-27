@@ -1,12 +1,12 @@
 from pydantic import BaseModel
 
 
-class UserCreate(BaseModel):
+class UserCreateSchema(BaseModel):
     username: str
     password: str
 
 
-class User(BaseModel):
+class UserSchema(BaseModel):
     id: int
     username: str
 
@@ -14,6 +14,6 @@ class User(BaseModel):
         orm_mode = True
 
 
-class Token(BaseModel):
+class TokenSchema(BaseModel):
     access_token: str
     token_type: str

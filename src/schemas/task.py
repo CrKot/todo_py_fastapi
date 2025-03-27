@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 
-class Task(BaseModel):
+class TaskCreateSchema(BaseModel):
     id: int
     description: str
     user_id: int

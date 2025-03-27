@@ -4,7 +4,7 @@ from sqlalchemy import Column, Integer, String
 from src.database.base import Base
 
 
-class User(Base):
+class UserModel(Base):
     """Класс для пользователей."""
 
     __tablename__ = "users"
