@@ -21,6 +21,6 @@ def get_task_list(db: Session = Depends(get_db)):
     return get_all_tasks(db)
 
 
-@task_router.post("/tasks", response_model=TaskModel)
+@task_router.post("/tasks", response_model=TaskCreateSchema)
 def post_task(user_id: int, db: Session = Depends(get_db)):
     return create_task(db, task=TaskCreateSchema, user_id=user_id)

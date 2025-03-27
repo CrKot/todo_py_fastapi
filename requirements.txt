@@ -1,5 +1,8 @@
 fastApi
 pydantic
+pydantic-settings
 pymysql
 sqlalchemy
 uvicorn
+cryptography
+alembic
